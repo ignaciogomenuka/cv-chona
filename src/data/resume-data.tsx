@@ -229,6 +229,6 @@ export const RESUME_DATA = {
       link: {
         label: "play.google.com",
         href: "https://howdy.co/",
-      },
+      }
   ],
 } as const;
