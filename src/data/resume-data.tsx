@@ -24,10 +24,8 @@ export const RESUME_DATA = {
   initials: "IMG",
   location: "Buenos Aires, Argentina, UTC -3",
   locationLink: "https://www.google.com/maps/place/Buenos+Aires",
-  about:
-    "Data Scientist focused on decison science and Machine Learning",
-  summary:
-    "As a Data Scientist, I have successfully driven project decision making based on large datasets. I lead teams effectively, ensuring an environment of innovation, iteration and creativity. Currently, I work mostly with Python, Sklearn and Tensorflow. I have 3 years of experience in working remotely and performing complex problem solving task autonomly.",
+  about: "Data Scientist focused on decision science and Machine Learning",
+  summary: "As a Data Scientist, I have successfully driven project decision making based on large datasets. I lead teams effectively, ensuring an environment of innovation, iteration and creativity. Currently, I work mostly with Python, Sklearn and Tensorflow. I have 3 years of experience in working remotely and performing complex problem solving tasks autonomously.",
   avatarUrl: "https://github.com/account",
   personalWebsiteUrl: "https://framer.chona.website",
   contact: {
@@ -67,8 +65,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "2023",
       end: "2024",
-      description:
-        "Lead research and report creation for new prospects and current porfolio startups on a variety of tech industries. Working remotely for C Level partners in topics like AI, Web3 and Data.",
+      description: "Lead research and report creation for new prospects and current portfolio startups on a variety of tech industries. Working remotely for C Level partners in topics like AI, Web3, and Data.",
     },
     {
       company: "Havas Media Group",
@@ -78,19 +75,17 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "2021",
       end: "2023",
-      description:
-        "Developed Power BI reports for international brands like Pedidos Ya, Puma and Cencosud. Working with large datasets and ETL with SQL and Python.",
+      description: "Developed Power BI reports for international brands like Pedidos Ya, Puma, and Cencosud. Working with large datasets and ETL with SQL and Python.",
     },
     {
       company: "Speezard",
       link: "https://speezard.io/",
       badges: [],
-      title: "Co Funder",
+      title: "Co Founder",
       logo: JojoMobileLogo,
       start: "2022",
       end: "2024",
-      description:
-        "Built the first web3 Accelerator in LATAM, side by side with a tech/entrepreneur community. We incubated +30 tech startups and lead team to product market fit and validate the idea with a +1000 web3 community.",
+      description: "Built the first web3 Accelerator in LATAM, side by side with a tech/entrepreneur community. We incubated +30 tech startups and lead team to product market fit and validate the idea with a +1000 web3 community.",
     },
   ],
   skills: [
@@ -105,14 +100,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Sport Analyst",
-      techStack: [
-        "Side Project",
-        "Python",
-        "Transformers",
-        "Keras",
-        "NVIDIA CUDA",
-        "FastAPI",
-      ],
+      techStack: ["Side Project", "Python", "Transformers", "Keras", "NVIDIA CUDA", "FastAPI"],
       description: "A model to extract stats from sports video",
       logo: ConsultlyLogo,
       link: {
@@ -123,8 +111,7 @@ export const RESUME_DATA = {
     {
       title: "Monito",
       techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
+      description: "Browser extension that records everything happening in a web application",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
@@ -134,8 +121,7 @@ export const RESUME_DATA = {
     {
       title: "Jarocki.me",
       techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
+      description: "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -145,8 +131,7 @@ export const RESUME_DATA = {
     {
       title: "Minimal",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
+      description: "Minimalist calendars, habit trackers and planners generator",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -156,8 +141,7 @@ export const RESUME_DATA = {
     {
       title: "Barepapers",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+      description: "Generates beautiful wallpapers using random shapes and gradients",
       logo: BarepapersLogo,
       link: {
         label: "barepapers.com",
@@ -176,15 +160,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+      techStack: ["Full Stack Developer", "TypeScript", "React", "Node.js", "GraphQL"],
+      description: "The Agile meeting co-pilot that delivers better meetings with less effort",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -193,16 +170,8 @@ export const RESUME_DATA = {
     },
     {
       title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+      techStack: ["Lead Frontend Developer", "TypeScript", "React", "Node.js", "GraphQL"],
+      description: "Creative collaboration platform that combines video conferencing and HD media streaming",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
@@ -212,8 +181,7 @@ export const RESUME_DATA = {
     {
       title: "Mobile Vikings",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
+      description: "Android application for leading virtual mobile operator in Poland",
       logo: MobileVikingsLogo,
       link: {
         label: "mobilevikings.pl",
@@ -223,11 +191,12 @@ export const RESUME_DATA = {
     {
       title: "Howdy",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
+      description: "Howdy is a place for you to join communities you care about",
       logo: Howdy,
       link: {
         label: "play.google.com",
         href: "https://howdy.co/",
       }
-} as const;
+    },
+  ] as const
+};
