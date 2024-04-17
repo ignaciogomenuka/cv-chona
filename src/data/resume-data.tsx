@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Buenos+Aires",
   about: "Data Scientist focused on decision science and Machine Learning",
   summary: "As a Data Scientist, I have successfully driven project decision making based on large datasets. I lead teams effectively, ensuring an environment of innovation, iteration and creativity. Currently, I work mostly with Python, Sklearn and Tensorflow. I have 3 years of experience in working remotely and performing complex problem solving tasks autonomously.",
-  avatarUrl: "https://github.com/ignaciogomenuka",
+  avatarUrl: "https://avatars.githubusercontent.com/u/103946112?v=4",
   personalWebsiteUrl: "https://framer.chona.website",
   contact: {
     email: "ignaciogomenuka@gmail.com",
