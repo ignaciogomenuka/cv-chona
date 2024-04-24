@@ -89,7 +89,7 @@ export const RESUME_DATA = {
       link: "https://speezard.io/",
       badges: [],
       title: "Co-Founder",
-      logo: Spezzard,
+      logo: Minimal,
       start: "2022",
       end: "2024",
       description: "Built the first web3 Accelerator in LATAM, side by side with a tech/entrepreneur community. We incubated +30 tech startups and lead team to product market fit and validate the idea with a +1000 web3 community.",
@@ -129,7 +129,7 @@ export const RESUME_DATA = {
       title: "Speezard Incubator",
       techStack: ["Side Project", "Web3", "Venture Capital", "Tech Community"],
       description: "Growth and validation of the first web3 Accelerator in LATAM",
-      logo: Spezzard,
+      logo: Minimal,
       link: {
         label: "speezard.io",
         href: "https://www.speezard.io/",
