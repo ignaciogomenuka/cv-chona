@@ -16,6 +16,7 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  Spezzard
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -24,8 +25,8 @@ export const RESUME_DATA = {
   initials: "IMG",
   location: "Buenos Aires, Argentina, UTC -3",
   locationLink: "https://www.google.com/maps/place/Buenos+Aires",
-  about: "Data Scientist focused on decision science and Machine Learning",
-  summary: "As a Data Scientist, I have successfully driven project decision making based on large datasets. I lead teams effectively, ensuring an environment of innovation, iteration and creativity. Currently, I work mostly with Python, Sklearn and Tensorflow. I have 3 years of experience in working remotely and performing complex problem solving tasks autonomously.",
+  about: "Data Scientist focused on Machine Learning",
+  summary: "As a Data Scientist, I have successfully driven project decision making based on large datasets. I worked for Havas Media Group and Matterscale Ventures, where I developed Power BI reports for international brands and lead research and report creation for new prospects and current portfolio startups. I am also the co-founder of Speezard, the first web3 Accelerator in LATAM where we growth a +1000 tech entrepreneurs community and helped +40 startups validating their products.",
   avatarUrl: "https://avatars.githubusercontent.com/u/103946112?v=4",
   personalWebsiteUrl: "https://framer.chona.website",
   contact: {
@@ -50,7 +51,13 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Universidad Católica Argentina",
+      school: "LeWagon",
+      degree: "Data Science Fulltime Bootcamp +400hs",
+      start: "2024",
+      end: "2024",
+    },
+    {
+      school: "Universidad de Ciencias Empresariales y Sociales (UCES)",
       degree: "Bachelor's Degree in Business Administration",
       start: "2019",
       end: "2025",
@@ -81,8 +88,8 @@ export const RESUME_DATA = {
       company: "Speezard",
       link: "https://speezard.io/",
       badges: [],
-      title: "Co Founder",
-      logo: JojoMobileLogo,
+      title: "Co-Founder",
+      logo: Spezzard,
       start: "2022",
       end: "2024",
       description: "Built the first web3 Accelerator in LATAM, side by side with a tech/entrepreneur community. We incubated +30 tech startups and lead team to product market fit and validate the idea with a +1000 web3 community.",
@@ -104,30 +111,31 @@ export const RESUME_DATA = {
       description: "A model to extract stats from sports video",
       logo: ConsultlyLogo,
       link: {
-        label: "",
-        href: "",
+        label: "chona.portfolio",
+        href: "https://chona.framer.website/work",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description: "Browser extension that records everything happening in a web application",
+      title: "Olist Analysis",
+      techStack: ["Decsion Science", "Python", "Statsmodels", "SkLearn", "Pandas"],
+      description: "Decision Science project to analyze Olist's sales, customer satisfaction and delivery time",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "chona.portfolio",
+        href: "https://chona.framer.website/work",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description: "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+      title: "Speezard Incubator",
+      techStack: ["Side Project", "Web3", "Venture Capital", "Tech Community"],
+      description: "Growth and validation of the first web3 Accelerator in LATAM",
+      logo: Spezzard,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "speezard.io",
+        href: "https://www.speezard.io/",
       },
     },
+    /*
     {
       title: "Minimal",
       techStack: ["Side Project", "Next.js", "Puppeteer"],
@@ -198,5 +206,6 @@ export const RESUME_DATA = {
         href: "https://howdy.co/",
       }
     },
+    */
   ] as const
 };
