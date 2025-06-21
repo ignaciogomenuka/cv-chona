@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       company: "Matterscale Ventures",
       link: "https://matterscale.com",
       badges: ["Remote"],
-      title: "Portfolio Analyst",
+      title: "Sr. Business Analyst",
       logo: ParabolLogo,
       start: "2023",
       end: "2024",
