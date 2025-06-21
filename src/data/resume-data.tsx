@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       title: "Sr. Business Analyst",
       logo: ParabolLogo,
       start: "2023",
-      end: "2024",
+      end: "Today",
       description: "Lead research and report creation for new prospects and current portfolio startups on a variety of tech industries. Working remotely for C Level partners in topics like AI, Web3, and Data.",
     },
     {
