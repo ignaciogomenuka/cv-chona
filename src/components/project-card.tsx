@@ -10,8 +10,8 @@ import { Badge } from "./ui/badge";
 interface Props {
   title: string;
   description: string;
-  tags: readonly string[];
-  link?: string;
+  techStack: readonly string[];
+  link?: { label: string; href: string };
 }
 
 export function ProjectCard({ title, description, tags, link }: Props) {
