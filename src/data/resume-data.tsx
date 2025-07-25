@@ -119,14 +119,17 @@ export const RESUME_DATA = {
       techStack: ["Blockchain", "Typescript", "Reward System", "EVM" ],
       description: "Resi-token is an ERC-20 token designed to incentivize community participation within the Speezard accelerator. Its primary purpose is to reward builders and contributors who support early-stage blockchain projects in validating product–market fit.",
       logo: MonitoLogo,
-      link: {
-        label: "Github",
-        href: "https://github.com/Comunidad-Resiliente/Resi-token/tree/main",
-      },
-      link: {
-        label: "Medium",
-        href: "https://alejolovallo.medium.com/resi-proof-of-build-distribution-075340b35c5d",
-      },
+      links: [
+  {
+    label: "Github",
+    href: "https://github.com/Comunidad-Resiliente/Resi-token/tree/main",
+  },
+  {
+    label: "Medium",
+    href: "https://alejolovallo.medium.com/resi-proof-of-build-distribution-075340b35c5d",
+  }
+],
+
     },
     {
       title: "Speezard Incubator",
