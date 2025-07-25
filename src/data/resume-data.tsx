@@ -25,9 +25,7 @@ export const RESUME_DATA = {
   location: "Buenos Aires, Argentina, UTC -3",
   locationLink: "https://www.google.com/maps/place/Buenos+Aires",
   about: "Data Analyst | VC | Blockchain",
-  summary: "Skilled specialist with a proven track record in delivering impactful results across media, blockchain, and finance. Adept at team collaboration and flexible in adapting to changing needs, with a strong focus on data-driven decision making. Experienced in managing a diverse portfolio of nearly 50 technology startups — primarily SaaS — driving growth through strategic analysis of key metrics such as revenue, churn, MRR, and financial runway. In the Web3 space, I have contributed to blockchain product accelerators, supported early-stage teams in validating product–market fit, and engaged in tokenomics design and community growth for DeFi initiatives. My background includes competitive analysis to guide investment decisions, as well as leveraging tools like Power BI and Looker to monitor performance and provide actionable insights for B2B digital campaigns and strategic initiatives.
-
-",
+  summary: "Skilled specialist with a proven track record in delivering impactful results across media, blockchain, and finance. Adept at team collaboration and flexible in adapting to changing needs, with a strong focus on data-driven decision making. Experienced in managing a diverse portfolio of nearly 50 technology startups — primarily SaaS — driving growth through strategic analysis of key metrics such as revenue, churn, MRR, and financial runway. In the Web3 space, I have contributed to blockchain product accelerators, supported early-stage teams in validating product–market fit, and engaged in tokenomics design and community growth for DeFi initiatives. My background includes competitive analysis to guide investment decisions, as well as leveraging tools like Power BI and Looker to monitor performance and provide actionable insights for B2B digital campaigns and strategic initiatives.",
   avatarUrl: "https://avatars.githubusercontent.com/u/103946112?v=4",
   personalWebsiteUrl: "https://framer.chona.website",
   contact: {
