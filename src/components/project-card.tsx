@@ -14,15 +14,15 @@ interface Props {
   link?: { label: string; href: string };
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, techStack, link }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
-      <CardHeader className="">
+      <CardHeader>
         <div className="space-y-1">
           <CardTitle className="text-base">
             {link ? (
               <a
-                href={link}
+                href={link.href}
                 target="_blank"
                 className="inline-flex items-center gap-1 hover:underline"
               >
@@ -34,7 +34,10 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             )}
           </CardTitle>
           <div className="hidden font-mono text-xs underline print:visible">
-            {link?.replace("https://", "").replace("www.", "").replace("/", "")}
+            {link?.href
+              .replace("https://", "")
+              .replace("www.", "")
+              .replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
             {description}
@@ -43,7 +46,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
       </CardHeader>
       <CardContent className="mt-auto flex">
         <div className="mt-2 flex flex-wrap gap-1">
-          {tags.map((tag) => (
+          {techStack.map((tag) => (
             <Badge
               className="px-1 py-0 text-[10px]"
               variant="secondary"
