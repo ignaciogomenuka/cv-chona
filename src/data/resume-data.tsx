@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       logo: Minimal,
       start: "2022",
       end: "2024",
-      description: "Built the first web3 Accelerator in LATAM, side by side with a tech/entrepreneur community. We incubated +30 tech startups and lead team to product market fit and validate the idea with a +1000 web3 community.",
+      description: "Core member at Speezard, a blockchain product accelerator focused on helping early-stage teams validate product–market fit. Supported the launch of a community of 1,000 builders, coordinated hackathons with partners like Ripio, and contributed to the design of a token-based incentive model to reward contributors validating early-stage ideas.",
     },
   ],
   skills: [
@@ -115,13 +115,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Olist Analysis",
-      techStack: ["Decsion Science", "Python", "Statsmodels", "SkLearn", "Pandas"],
-      description: "Decision Science project to analyze Olist's sales, customer satisfaction and delivery time",
+      title: "Resi Token",
+      techStack: ["Blockchain", "Typescript", "Reward System", "EVM" ],
+      description: "Resi-token is an ERC-20 token designed to incentivize community participation within the Speezard accelerator. Its primary purpose is to reward builders and contributors who support early-stage blockchain projects in validating product–market fit.",
       logo: MonitoLogo,
       link: {
-        label: "chona.portfolio",
-        href: "https://chona.framer.website/work",
+        label: "Github",
+        href: "https://github.com/Comunidad-Resiliente/Resi-token/tree/main",
+      },
+      link: {
+        label: "Medium",
+        href: "https://alejolovallo.medium.com/resi-proof-of-build-distribution-075340b35c5d",
       },
     },
     {
