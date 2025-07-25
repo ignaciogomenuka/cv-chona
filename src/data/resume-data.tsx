@@ -124,11 +124,7 @@ export const RESUME_DATA = {
     label: "Github",
     href: "https://github.com/Comunidad-Resiliente/Resi-token/tree/main",
   },
-  {
-    label: "Medium",
-    href: "https://alejolovallo.medium.com/resi-proof-of-build-distribution-075340b35c5d",
-  }
-],
+    ],
 
     },
     {
