@@ -78,3 +78,35 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+/* -------------------------
+   AJUSTES PARA EXPORTAR A PDF
+------------------------- */
+@media print {
+  html, body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: white !important;
+    overflow: visible !important;
+  }
+
+  /* Reducir escala para que quepa en una sola página */
+  body {
+    transform: scale(0.85); /* Ajustá el valor si sigue cortado */
+    transform-origin: top left;
+  }
+
+  /* Evitar cortes de secciones internas */
+  * {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Eliminar márgenes de página por defecto */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
