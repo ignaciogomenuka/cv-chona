@@ -24,8 +24,8 @@ export const RESUME_DATA = {
   initials: "IMG",
   location: "Buenos Aires, Argentina, UTC -3",
   locationLink: "https://www.google.com/maps/place/Buenos+Aires",
-  about: "Data Scientist focused on Machine Learning",
-  summary: "As a Data Scientist, I have successfully driven project decision making based on large datasets. I worked for Havas Media Group and Matterscale Ventures, where I developed Power BI reports for international brands and lead research and report creation for new prospects and current portfolio startups. I am also the co-founder of Speezard, the first web3 Accelerator in LATAM where we growth a +1000 tech entrepreneurs community and helped +40 startups validating their products.",
+  about: "Data Analyst | VC | Blockchain",
+  summary: "Skilled specialist with a proven track record in delivering impactful results across media, blockchain, and finance. Adept at team collaboration and flexible in adapting to changing needs, with a strong focus on data-driven decision making. Experienced in managing a diverse portfolio of nearly 50 technology startups — primarily SaaS — driving growth through strategic analysis of key metrics such as revenue, churn, MRR, and financial runway. In the Web3 space, I have contributed to blockchain product accelerators, supported early-stage teams in validating product–market fit, and engaged in tokenomics design and community growth for DeFi initiatives. My background includes competitive analysis to guide investment decisions, as well as leveraging tools like Power BI and Looker to monitor performance and provide actionable insights for B2B digital campaigns and strategic initiatives.",
   avatarUrl: "https://avatars.githubusercontent.com/u/103946112?v=4",
   personalWebsiteUrl: "https://framer.chona.website",
   contact: {
@@ -115,13 +115,13 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Olist Analysis",
-      techStack: ["Decsion Science", "Python", "Statsmodels", "SkLearn", "Pandas"],
-      description: "Decision Science project to analyze Olist's sales, customer satisfaction and delivery time",
+      title: "Resi Token",
+      techStack: ["Blockchain", "EVM", "Typescript", "Reward System" ],
+      description: "Resi-token is an ERC-20 token designed to incentivize community participation within the Speezard accelerator. Its primary purpose is to reward builders and contributors who support early-stage blockchain projects in validating product–market fit.",
       logo: MonitoLogo,
       link: {
-        label: "chona.portfolio",
-        href: "https://chona.framer.website/work",
+        label: "resi.token",
+        href: "https://github.com/Comunidad-Resiliente/Resi-token/tree/main",
       },
     },
     {
